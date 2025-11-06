@@ -11,7 +11,11 @@ return function()
 			},
 			suggestion = {
 				-- if true, it can interfere with completions in copilot-cmp
+<<<<<<< HEAD
 				enabled = false,
+=======
+				enabled = true,
+>>>>>>> ff29005 (local)
 			},
 			filetypes = {
 				["dap-repl"] = false,
