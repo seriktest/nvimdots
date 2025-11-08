@@ -270,9 +270,9 @@ fi
 
 info "Fetching in progress..."
 if [[ "${USE_SSH}" -eq "1" ]]; then
-	clone_repo "git@github.com:ayamir/nvimdots.git"
+	clone_repo "git@github.com:seriktest/nvimdots.git"
 else
-	clone_repo "https://github.com/ayamir/nvimdots.git"
+	clone_repo "https://github.com/seriktest/nvimdots.git"
 fi
 
 cd "${DEST_DIR}" || return
